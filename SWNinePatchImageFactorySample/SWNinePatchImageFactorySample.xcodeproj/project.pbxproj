@@ -190,7 +190,7 @@
 		02F47554196E9B9700B1189D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = TaccoTap;
 				TargetAttributes = {
 					02F4757C196E9B9800B1189D = {
@@ -306,6 +306,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -370,6 +371,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SWNinePatchImageFactorySample/SWNinePatchImageFactorySample-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = de.alexsteiner.SWNinePatchImageFactorySample;
 				PRODUCT_NAME = SWNinePatchImageFactorySample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,6 +389,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/SWNinePatchImageFactorySample/SWNinePatchImageFactorySample-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = de.alexsteiner.SWNinePatchImageFactorySample;
 				PRODUCT_NAME = SWNinePatchImageFactorySample;
 				WRAPPER_EXTENSION = app;
 			};
