@@ -143,7 +143,7 @@
 
     UIImage* cropImage = [ninePatchImage crop:CGRectMake(1, 1, ninePatchImage.size.width - 2, ninePatchImage.size.height - 2)];
 
-    return [cropImage resizableImageWithCapInsets:UIEdgeInsetsMake(top, left, bottom, right)];
+    return [cropImage resizableImageWithCapInsets:UIEdgeInsetsMake(top, left, ninePatchImage.size.height - bottom, ninePatchImage.size.width - right)];
 }
 
 @end
