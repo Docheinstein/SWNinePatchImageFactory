@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SWNinePatchImageFactory"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Let you use 9-Patch PNG images easily on iOS."
 
   # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "The techinque is only to transform the 9-patch PNG images to iOS compatible, resizable UIImage objects. See the UIImage's method resizableImageWithCapInsets:(UIEdgeInsets)insets for more info. So it only support to stretch one segment of patch markers in both horizontal and vertical sides."
 
-  s.homepage     = "https://github.com/alexsteinerde/SWNinePatchImageFactory"
+  s.homepage     = "https://github.com/Docheinstein/SWNinePatchImageFactory"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/alexsteinerde/SWNinePatchImageFactory.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Docheinstein/SWNinePatchImageFactory", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
